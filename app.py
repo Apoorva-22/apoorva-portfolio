@@ -382,6 +382,10 @@ st.markdown(f"""
 ManoSamvada – AI Mental Wellness Chatbot
 </h2>
 
+st.image("assets/landing.png")
+st.image("assets/chat.png")
+st.image("assets/user_analytics.png")
+
 <p style='color:#CBD5E1; font-size:18px; line-height:1.8;'>
 
 AI-powered mental wellness chatbot designed for emotion-aware
