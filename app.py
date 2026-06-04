@@ -371,10 +371,6 @@ st.markdown(
 
 # ---------- PROJECT 1 ---------- #
 
-st.image("assets/landing.png")
-st.image("assets/chat.png")
-st.image("assets/user_analytics.png")
-
 st.markdown(f"""
 <div class='project-card'>
 
@@ -382,16 +378,29 @@ st.markdown(f"""
 ManoSamvada – AI Mental Wellness Chatbot
 </h2>
 
-st.image("assets/landing.png")
-st.image("assets/chat.png")
-st.image("assets/user_analytics.png")
-
 <p style='color:#CBD5E1; font-size:18px; line-height:1.8;'>
 
 AI-powered mental wellness chatbot designed for emotion-aware
 conversational support using LLM APIs and backend analytics systems.
 
 </p>
+
+</div>
+""", unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.image("assets/landing.png")
+
+with col2:
+    st.image("assets/chat.png")
+
+with col3:
+    st.image("assets/user_analytics.png")
+
+st.markdown(f"""
+<div class='project-card'>
 
 <p style='color:#38BDF8;'>
 Flask • MySQL • Groq API • Python
@@ -412,23 +421,23 @@ Flask • MySQL • Groq API • Python
 </div>
 """, unsafe_allow_html=True)
 
-_ = st.link_button(
-    "🔗 View Project",
-    "https://github.com/Apoorva-22/ManoSamvada"
-)
+col1, col2 = st.columns(2)
 
-_ = st.link_button(
-    "🔗 Live Demo",
-    "https://manosamvada.onrender.com/"
-)
+with col1:
+    st.link_button(
+        "🔗 View Project",
+        "https://github.com/Apoorva-22/ManoSamvada"
+    )
+
+with col2:
+    st.link_button(
+        "🔗 Live Demo",
+        "https://manosamvada.onrender.com/"
+    )
 
 st.divider()
 
 # ---------- PROJECT 2 ---------- #
-
-st.image("assets/frontend_input.png")
-st.image("assets/frontend_results.png")
-st.image("assets/fastapi.png")
 
 st.markdown(f"""
 <div class='project-card'>
@@ -444,6 +453,23 @@ speech emotion, and text sentiment analysis using Deep Learning,
 Transformers, and Computer Vision pipelines.
 
 </p>
+
+</div>
+""", unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.image("assets/frontend_input.png")
+
+with col2:
+    st.image("assets/frontend_results.png")
+
+with col3:
+    st.image("assets/fastapi.png")
+
+st.markdown(f"""
+<div class='project-card'>
 
 <p style='color:#38BDF8;'>
 PyTorch • FastAPI • OpenCV • YOLO • DistilBERT • Librosa
@@ -464,12 +490,12 @@ PyTorch • FastAPI • OpenCV • YOLO • DistilBERT • Librosa
 </div>
 """, unsafe_allow_html=True)
 
-_ = st.link_button(
+st.link_button(
     "🔗 View Project",
     "https://github.com/Apoorva-22/multimodal-emotion-recognition-system"
 )
 
-st.write("")
+st.divider()
 
 # ---------- PROJECT 3 ---------- #
 
