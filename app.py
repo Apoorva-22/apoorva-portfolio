@@ -508,11 +508,19 @@ AI-Based Autonomous Robot
 
 <p style='color:#CBD5E1; font-size:18px; line-height:1.8;'>
 
-AI-assisted autonomous robotic system developed for real-time face
-recognition and intelligent navigation workflows using edge-based
-computer vision pipelines.
+AI-assisted autonomous robotic system developed during my
+research internship at BARC for real-time face recognition
+and intelligent navigation using edge-based computer vision.
 
 </p>
+
+</div>
+""", unsafe_allow_html=True)
+
+
+
+st.markdown(f"""
+<div class='project-card'>
 
 <p style='color:#38BDF8;'>
 Python • OpenCV • Raspberry Pi • Arduino
@@ -522,29 +530,41 @@ Python • OpenCV • Raspberry Pi • Arduino
 
 <li>Implemented face recognition workflows using OpenCV</li>
 
-<li>Built hardware-software communication pipelines</li>
+<li>Built Raspberry Pi and Arduino communication pipelines</li>
 
-<li>Worked on intelligent navigation systems</li>
+<li>Worked on intelligent navigation and object tracking</li>
+
+<li>Integrated hardware and software modules for autonomous operation</li>
 
 <li>Developed during BARC research internship</li>
 
 </ul>
 
+<p style='color:#F59E0B;'>
+
+⚠️ Project images cannot be publicly shared due to
+organizational security restrictions.
+
+</p>
+
 </div>
 """, unsafe_allow_html=True)
 
-_ = st.link_button(
-    "🔗 View Project",
-    "https://github.com/Apoorva-22/vision-guided-autonomous-robot"
-)
+col1, col2 = st.columns(2)
 
-_ = st.link_button(
-    "📜 Internship Certificate",
-    "https://drive.google.com/file/d/1rSkF51zzsnKZmAKsBPbO2xW2o9lr3Oul/view?pli=1"
-)
+with col1:
+    st.link_button(
+        "🔗 View Project",
+        "https://github.com/Apoorva-22/vision-guided-autonomous-robot"
+    )
 
-st.write("")
+with col2:
+    st.link_button(
+        "📜 Internship Certificate",
+        "https://drive.google.com/file/d/1rSkF51zzsnKZmAKsBPbO2xW2o9lr3Oul/view?pli=1"
+    )
 
+st.divider()
 
 # ---------------- EXPERIENCE SECTION ---------------- #
 
