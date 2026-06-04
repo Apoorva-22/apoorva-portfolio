@@ -3,7 +3,7 @@ from PIL import Image
 
 # ---------------- PAGE CONFIG ---------------- #
 st.set_page_config(
-    page_title="Apoorva Sharma | AI Engineer",
+    page_title="Apoorva Sharma | AI/ML Developer",
     page_icon="🚀",
     layout="wide"
 )
@@ -199,15 +199,15 @@ with col1:
     )
 
     st.markdown(
-        "<div class='sub-title'>AI Engineer | Computer Vision & Intelligent Systems</div>",
+        "<div class='sub-title'>Computer Science Graduate | AI/ML Developer</div>",
         unsafe_allow_html=True
     )
 
     st.markdown(
         """
         <div class='description'>
-        Building Real-World AI Systems with Computer Vision,
-        NLP & Intelligent Automation.
+        BARC Research Intern building AI systems with
+        Computer Vision, NLP, FastAPI and Deep Learning.
         </div>
         """,
         unsafe_allow_html=True
@@ -259,20 +259,18 @@ st.markdown(f"""
 
 <div class='about-text'>
 
-I am an AI Engineer and Intelligent Systems Developer focused on building
-real-world AI applications using Computer Vision, NLP, Deep Learning,
-and intelligent automation systems.
+I am a Computer Science graduate focused on
+Computer Vision, NLP and real-world AI systems.
 
+My experience includes developing autonomous
+robotics solutions during my research internship
+at Bhabha Atomic Research Centre (BARC) and
+building multimodal AI applications using
+PyTorch, FastAPI, OpenCV and Transformer models.
 
-
-My work combines AI research with practical engineering through projects
-in multimodal emotion recognition, autonomous robotics, and AI-powered
-mental wellness systems.
-
-
-
-I enjoy building scalable AI pipelines, backend systems, and deployable
-machine learning applications that solve meaningful real-world problems.
+I enjoy solving practical problems through
+machine learning, backend engineering and
+deployable AI products.
 
 </div>
 
@@ -281,6 +279,20 @@ machine learning applications that solve meaningful real-world problems.
 
 st.divider()
 # ---------------- SKILLS SECTION ---------------- #
+
+st.markdown(
+    "<div class='section-heading'>Highlights</div>",
+    unsafe_allow_html=True
+)
+
+c1,c2,c3,c4 = st.columns(4)
+
+c1.metric("Projects","3+")
+c2.metric("Internship","BARC")
+c3.metric("Core Area","AI/ML")
+c4.metric("Focus","CV + NLP")
+
+st.divider()
 
 st.markdown(
     "<div class='section-heading'>Technical Skills</div>",
@@ -361,6 +373,57 @@ st.markdown(
 
 # ---------- PROJECT 1 ---------- #
 
+st.image("assets/manosamvada.png")
+
+st.markdown(f"""
+<div class='project-card'>
+
+<h2 style='color:{text};'>
+ManoSamvada – AI Mental Wellness Chatbot
+</h2>
+
+<p style='color:#CBD5E1; font-size:18px; line-height:1.8;'>
+
+AI-powered mental wellness chatbot designed for emotion-aware
+conversational support using LLM APIs and backend analytics systems.
+
+</p>
+
+<p style='color:#38BDF8;'>
+Flask • MySQL • Groq API • Python
+</p>
+
+<ul style='color:#CBD5E1; line-height:2;'>
+
+<li>Built modular chatbot backend architecture</li>
+
+<li>Implemented emotional analytics workflows</li>
+
+<li>Designed crisis keyword detection pipeline</li>
+
+<li>Created authentication & session management APIs</li>
+
+</ul>
+
+</div>
+""", unsafe_allow_html=True)
+
+_ = st.link_button(
+    "🔗 View Project",
+    "https://github.com/Apoorva-22/ManoSamvada"
+)
+
+_ = st.link_button(
+    "🔗 Live Demo",
+    "https://manosamvada.onrender.com/"
+)
+
+st.divider()
+
+# ---------- PROJECT 2 ---------- #
+
+st.image("assets/emotion_system.png")
+
 st.markdown(f"""
 <div class='project-card'>
 
@@ -402,7 +465,7 @@ _ = st.link_button(
 
 st.write("")
 
-# ---------- PROJECT 2 ---------- #
+# ---------- PROJECT 3 ---------- #
 
 st.markdown(f"""
 <div class='project-card'>
@@ -443,49 +506,14 @@ _ = st.link_button(
     "https://github.com/Apoorva-22/vision-guided-autonomous-robot"
 )
 
-st.write("")
-
-# ---------- PROJECT 3 ---------- #
-
-st.markdown(f"""
-<div class='project-card'>
-
-<h2 style='color:{text};'>
-ManoSamvada – AI Mental Wellness Chatbot
-</h2>
-
-<p style='color:#CBD5E1; font-size:18px; line-height:1.8;'>
-
-AI-powered mental wellness chatbot designed for emotion-aware
-conversational support using LLM APIs and backend analytics systems.
-
-</p>
-
-<p style='color:#38BDF8;'>
-Flask • MySQL • Groq API • Python
-</p>
-
-<ul style='color:#CBD5E1; line-height:2;'>
-
-<li>Built modular chatbot backend architecture</li>
-
-<li>Implemented emotional analytics workflows</li>
-
-<li>Designed crisis keyword detection pipeline</li>
-
-<li>Created authentication & session management APIs</li>
-
-</ul>
-
-</div>
-""", unsafe_allow_html=True)
-
 _ = st.link_button(
-    "🔗 View Project",
-    "https://github.com/Apoorva-22/ManoSamvada"
+    "📜 Internship Certificate",
+    "https://drive.google.com/file/d/1rSkF51zzsnKZmAKsBPbO2xW2o9lr3Oul/view?pli=1"
 )
 
-st.divider()
+st.write("")
+
+
 # ---------------- EXPERIENCE SECTION ---------------- #
 
 st.markdown(
@@ -507,21 +535,23 @@ Jul 2024 – Nov 2024
 <ul style='color:#CBD5E1; line-height:2; font-size:18px;'>
 
 <li>
-Worked on AI-based autonomous robotics using OpenCV,
-Raspberry Pi, and Arduino.
+Developed AI-assisted autonomous robotics
+solutions using OpenCV, Raspberry Pi and Arduino.
 </li>
 
 <li>
-Contributed to face recognition and intelligent navigation workflows.
+Built computer vision workflows for face
+recognition and object tracking.
 </li>
 
 <li>
-Implemented hardware-software communication pipelines for
-robotic motion control systems.
+Integrated hardware and software modules for
+real-time robotic navigation.
 </li>
 
 <li>
-Worked in research-oriented intelligent systems environment.
+Worked within a research-driven environment at
+BARC on intelligent systems applications.
 </li>
 
 </ul>
@@ -591,44 +621,61 @@ research collaborations, and intelligent systems projects.
 
 # ---------------- CONTACT FORM ---------------- #
 
-with st.form("contact_form"):
+st.markdown("""
+<form action="https://formspree.io/f/mvznowqg"
+      method="POST">
 
-    name = st.text_input("", placeholder="Your Name")
+<input type="text"
+       name="name"
+       placeholder="Your Name"
+       required>
 
-    email = st.text_input("", placeholder="Your Email")
+<br><br>
 
-    message = st.text_area("", placeholder="Your Message")
+<input type="email"
+       name="email"
+       placeholder="Your Email"
+       required>
 
-    submitted = st.form_submit_button("Send Message")
+<br><br>
 
-    if submitted:
+<textarea name="message"
+          placeholder="Your Message"
+          required></textarea>
 
-        st.success(
-            "Message submitted successfully!"
-        )
+<br><br>
 
-        st.info(
-            "For now, connect directly via LinkedIn or Email."
-        )
+<button type="submit">
+Send Message
+</button>
+
+</form>
+""", unsafe_allow_html=True)
 
 st.write("")
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 with col1:
 
     _ = st.link_button(
-        "GitHub Profile",
+        "GitHub Profile: github.com/Apoorva-22",
         "https://github.com/Apoorva-22"
     )
 
 with col2:
 
     _ = st.link_button(
-        "LinkedIn Profile",
+        "LinkedIn Profile: linkedin.com/in/apoorva-sharma-a6842a22a ",
         "https://www.linkedin.com/in/apoorva-sharma-a6842a22a/"
     )
 
+with col3:
+
+    _ = st.link_button(
+        "Email: apoorv6627@gmail.com",
+        "mailto:apoorv6627@gmail.com"
+    )
 
 # ---------------- FOOTER ---------------- #
 
@@ -657,7 +704,7 @@ st.markdown(
 
     <br><br>
 
-    AI Engineer • Intelligent Systems Developer
+    AI/ML Developer • Computer Vision & NLP
 
     </div>
     """,
