@@ -371,7 +371,9 @@ st.markdown(
 
 # ---------- PROJECT 1 ---------- #
 
-st.image("assets/manosamvada.png")
+st.image("assets/landing.png")
+st.image("assets/chat.png")
+st.image("assets/user-analytics.png")
 
 st.markdown(f"""
 <div class='project-card'>
@@ -420,7 +422,9 @@ st.divider()
 
 # ---------- PROJECT 2 ---------- #
 
-st.image("assets/emotion_system.png")
+st.image("assets/frontend_input.png")
+st.image("assets/frontend_results.png")
+st.image("assets/fastapi.png")
 
 st.markdown(f"""
 <div class='project-card'>
