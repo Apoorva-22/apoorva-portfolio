@@ -287,12 +287,10 @@ st.markdown(
 
 c1,c2,c3,c4 = st.columns(4)
 
-c1.metric("Projects","3+")
+c1.metric("Projects","3")
 c2.metric("Internship","BARC")
 c3.metric("Core Area","AI/ML")
 c4.metric("Focus","CV + NLP")
-
-st.divider()
 
 st.markdown(
     "<div class='section-heading'>Technical Skills</div>",
@@ -605,7 +603,7 @@ st.markdown(
 st.markdown(f"""
 <div class='contact-card'>
 
-<h3 style='color:white;'>
+<h3 style='color:{text};'>
 Let's Connect
 </h3>
 
