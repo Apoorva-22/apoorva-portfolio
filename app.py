@@ -373,7 +373,7 @@ st.markdown(
 
 st.image("assets/landing.png")
 st.image("assets/chat.png")
-st.image("assets/user-analytics.png")
+st.image("assets/user_analytics.png")
 
 st.markdown(f"""
 <div class='project-card'>
